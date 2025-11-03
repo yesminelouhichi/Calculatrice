@@ -3,7 +3,7 @@ public class Main {
         int a = 2;
         int b = 3;
         System.out.println("Bienvenue");
-        
+
         // Test multiplication
         int resultatMult = Operation.multiplier(a, b);
         System.out.println(a + " * " + b + " = " + resultatMult);
@@ -15,7 +15,7 @@ public class Main {
         // Test addition
         int resultatAdd = Operation.additionner(a, b);
         System.out.println(a + " + " + b + " = " + resultatAdd);
-        
+
         // Test division
         try {
             double resultatDiv = Operation.diviser(a, b);
@@ -23,7 +23,11 @@ public class Main {
         } catch (ArithmeticException e) {
             System.out.println("Erreur : " + e.getMessage());
         }
-        
+
+        // Test division par zéro
+        double resultatDivZero = Operation.diviser(a, 0);
+        System.out.println(a + " / 0 = " + resultatDivZero);
+
         System.out.println("Au revoir");
     }
 }
