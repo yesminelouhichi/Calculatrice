@@ -22,5 +22,7 @@ try {
 } catch (ArithmeticException e) {
     System.out.println("Erreur : " + e.getMessage());
 }
-
+// Test division par zéro
+double resultatDivZero = Operation.diviser(a, 0);
+System.out.println(a + " / 0 = " + resultatDivZero);
 }
