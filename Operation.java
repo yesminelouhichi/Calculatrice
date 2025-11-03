@@ -15,4 +15,11 @@ public class Operation {
         int resultat = multiplier(5, 3);
         System.out.println("5 * 3 = " + resultat);
     }
+public static int soustraire(int x, int y) {
+    return x - y;
 }
+
+public static int additionner(int x, int y) {
+    return x + y;
+}}
+
