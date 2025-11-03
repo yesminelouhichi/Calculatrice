@@ -14,5 +14,13 @@ public class Main {
         // Test addition
         int resultatAdd = Operation.additionner(a, b);
         System.out.println(a + " + " + b + " = " + resultatAdd);
-    }
+
+    }// Test division
+try {
+    double resultatDiv = Operation.diviser(a, b);
+    System.out.println(a + " / " + b + " = " + resultatDiv);
+} catch (ArithmeticException e) {
+    System.out.println("Erreur : " + e.getMessage());
+}
+
 }
