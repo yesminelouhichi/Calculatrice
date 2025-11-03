@@ -21,5 +21,7 @@ public static int soustraire(int x, int y) {
 
 public static int additionner(int x, int y) {
     return x + y;
-}}
+}
+
+}
 
