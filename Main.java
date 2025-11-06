@@ -29,5 +29,6 @@ public class Main {
         System.out.println(a + " / 0 = " + resultatDivZero);
 
         System.out.println("Au revoir");
+
     }
 }
